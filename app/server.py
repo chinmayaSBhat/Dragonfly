@@ -10,9 +10,10 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/file/d/1Mh-YF82TjTscwut38UNmmeJZOakdFEl4/view?usp=sharing'
-export_file_name = 'export.pkl'
+export_file_name = 'data.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['black_stream_glider', 'blue_grass_dart', 'blue_ground_skimmer', 'blue_marsh_hawk', 'common_clubtail', 'common_picture_wing', 'coral_tailed_cloud_wing', 'crimson_marsh_glider', 'crimson_tailed_marsh_hawk', 'ditch_jewel', 'fulvous_forest_skimmer', 'peid_paddy_skimmer', 'scarlet_skimmer', 'trumpet_tail', 'wandering_glider', 'yellow_bush_dart']
+
 path = Path(__file__).parent
 
 app = Starlette()
