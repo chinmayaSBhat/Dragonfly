@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1iLtFtVUC4uw6q_iPZ0AxV2B2MNz_0UBC/view?usp=sharing'
-export_file_name = 'data.pkl'
+export_file_url = 'https://drive.google.com/file/d/147EuKmri88emz7cCz8-3SGrwgA5k_fDx/view?usp=sharing'
+export_file_name = 'export2.pkl'
 
 classes = ['black_stream_glider', 'blue_grass_dart', 'blue_ground_skimmer', 'blue_marsh_hawk', 'common_clubtail', 'common_picture_wing', 'coral_tailed_cloud_wing', 'crimson_marsh_glider', 'crimson_tailed_marsh_hawk', 'ditch_jewel', 'fulvous_forest_skimmer', 'peid_paddy_skimmer', 'scarlet_skimmer', 'trumpet_tail', 'wandering_glider', 'yellow_bush_dart']
 
